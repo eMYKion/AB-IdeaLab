@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+    <head>
+        <title>AB IdeaLab</title>
+        <link rel="shortcut icon" href="proposalsite1/IdeaLabLogo.jpg">
+        <style>
+            body{
+                font-family:Arial;
+            }
+            #con p paper-button{
+                background: #9999ff;
+                color: #fff;
+            }
+
+            #con p paper-button:hover {
+                background: #000000;
+            }
+
+            #con p paper-button::shadow #ripple {
+                color: #00FF00;
+            }
+            core-toolbar{
+                color:#FFFF00;
+                background-color: #0000FF;
+            }
+            core-toolbar::shadow #ripple {
+                background-color: #FFFF00;
+            }
+            
+            
+        </style>
+        <script src="bower_components/platform/platform.js"></script>
+        <link rel="import" href="bower_components/core-scroll-header-panel/core-scroll-header-panel.html">
+        <link rel="import" href="bower_components/core-menu/core-menu.html">
+        <link rel="import" href="bower_components/core-item/core-item.html">
+        <link rel="import" href="bower_components/core-toolbar/core-toolbar.html">
+        <link rel="import" href="bower_components/paper-button/paper-button.html">
+    </head>
+    <body fullbleed layout vertical>
+        <core-scroll-header-panel flex keepCondensedHeader="true" condenses="true" headerHeight=800px condensedHeaderHeight=50px>
+            <core-toolbar class="tall">
+                <p>News</p>
+                <p>Current Projects</p>
+                <p>Chat</p>
+                <input type="text" value="username">
+                <input type="password" value="password">
+            </core-toolbar>
+            <div id="con" content>
+                <p>
+                    <paper-button height="1000">
+                        hey there!
+                    </paper-button>
+                </p>
+                <p>
+                    <paper-button height="1000">
+                        hey there!
+                    </paper-button>
+                </p>
+                <p>
+                    <paper-button height="1000">
+                        hey there!
+                    </paper-button>
+                </p>
+                
+          
+          
+            </div>
+        </core-scroll-header-panel>
+</body>
+<!--
+    <body id="body">
+        <core-scroll-header-panel>
+            <core-toolbar>
+      <div>Hello World!</div>
+    </core-toolbar>
+            <div content>
+                <core-menu theme="core-light-theme">
+                    <core-item icon="settings" label="item1"></core-item>
+                    <core-item icon="settings" label="item2"></core-item>
+                </core-menu>
+                <div tool>AB IdeaLab</div>
+                <div>Content goes here...</div>
+            </div>
+    </core-scroll-header-panel>
+    </body>
+-->
+</html>

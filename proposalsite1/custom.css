@@ -1,0 +1,104 @@
+#body{
+     background-color:#DDDDDD;
+     font-family:"Lucida Console";
+     
+ }
+
+#top{
+    background-color:#CCCCCC;
+    float:left;
+    
+    
+    width:1245px;
+    border: 1px solid #000000;
+    margin:10px;
+}
+
+ #mid-container div{
+     background-color:#CCCCCC;
+ }
+ .colheads {
+     padding:5px;
+     background-color:#0000FF;
+     border: 1px solid #FFFF00;
+     border-radius:5px;
+     color:#FFFFFF;
+ }
+
+
+#left-column{
+    
+    float:left;
+            
+            
+    width:200px;
+    border: 1px solid #000000;
+    margin:10px;
+}
+#left-column ul{
+    list-style-type:none; 
+}
+#left-column ul li{
+    margin:4px;
+    border:1px solid #000000;
+}
+#left-column ul li:hover{
+    border:1px solid #9999FF;
+}
+#left-column ul li:active{
+    border:1px solid #FFFF00;
+}
+#left-column ul li a{
+    text-decoration:none; 
+    color:#000000;
+}
+
+
+
+
+#middle-column{
+    
+    float:left;
+    
+    
+    width:800px;
+    border:1px solid #000000;
+    margin:10px;
+}
+#right-column{
+    
+    float:left;
+    
+    
+    width:200px;
+    border:1px solid #000000;
+    margin:10px;
+}
+
+#mid-container{
+
+    margin:auto;
+    width:1220;
+    float:left; 
+}
+
+
+
+#bottom{
+    background-color:#CCCCCC;
+    float:left;
+    
+    height:150px;
+    width:1245px;
+    border: 1px solid #000000;
+    margin:10px;
+}
+#bottom div ul{
+    border:1px solid #000000;
+}
+#bottom div ul{
+    list-style-type:none;
+}
+bottom div ul li a{
+    text-decoration:none;
+}
