@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <head>
-    <title>IdeaLab Chat</title>
+    <title>AB-IdeaLab</title>
     <link rel="stylesheet" type="text/css" href="custom.css">
+    <link rel="shortcut icon" href="IdeaLabLogo.jpg">
 </head>
 <body id="body">
 
     <div id="top">
-        <img style="padding:10px" width="288px" hieght="162px" src="IdeaLabLogo.jpg">
+        <img style="padding:10px;float:left" width="144px" hieght="81px" src="IdeaLabLogo.jpg">
+        <div onclick="logincheck()" id="signin">
+            <h>Sign In:</h>
+            <input id="username" type="text" value="username">
+            <input id="password" type="password" value="password">
+        </div>
     </div>
     
     <div id="mid-container">
@@ -40,9 +46,9 @@
         <div>
             <ul>
                 <li>Meets in Room 129E on Fridays.</li>
-                <li>William Wu: <a href="#github.com/William-VVu"></a></li>
-                <li>Kevin Zhan: <a href="#"></a></li>
-                <li>Michael: <a href="#"></a></li>
+                <li>William Wu: <a href="http://github.com/William-VVu">Github</a></li>
+                <li>Kevin Zhan: <a href="https://www.facebook.com/kevin.w.zhan?fref=ts">Facebook</a></li>
+                <li>Michael: <a href="https://www.facebook.com/michael.mosesian?fref=ts">Facebook</a></li>
             </ul>
         </div>
     </div>
@@ -50,6 +56,7 @@
     
     
     <script type="text/javascript" src="run.js"></script>
+    <script type="text/javascript" src="server.js"></script>
     <!--HOW TO IMPORT NODE HURRR
     <script type="text/javascript" src="node.js"></script>
     -->

@@ -3,6 +3,7 @@
     <head>
         <title>AB IdeaLab</title>
         <link rel="shortcut icon" href="proposalsite1/IdeaLabLogo.jpg">
+        <link rel="stylesheet" type="text/css" href="index.css">
         <style>
             body{
                 font-family:Arial;
@@ -11,11 +12,11 @@
                 background: #9999ff;
                 color: #fff;
             }
-
+            
             #con p paper-button:hover {
                 background: #000000;
             }
-
+            
             #con p paper-button::shadow #ripple {
                 color: #00FF00;
             }
@@ -27,7 +28,10 @@
                 background-color: #FFFF00;
             }
             
-            
+            .maindiv{
+                float:left;
+                border:2px solid #9999ff;
+            }
         </style>
         <script src="bower_components/platform/platform.js"></script>
         <link rel="import" href="bower_components/core-scroll-header-panel/core-scroll-header-panel.html">
@@ -47,23 +51,23 @@
             </core-toolbar>
             <div id="con" content>
                 <p>
-                    <paper-button height="1000">
-                        hey there!
-                    </paper-button>
+                    <paper-button height="1000" label="hey there!"></paper-button>
                 </p>
                 <p>
-                    <paper-button height="1000">
-                        hey there!
-                    </paper-button>
+                    <paper-button height="1000" label="hey there!"></paper-button>
                 </p>
                 <p>
-                    <paper-button height="1000">
-                        hey there!
-                    </paper-button>
+                    <paper-button height="1000" label="hey there!"></paper-button>
                 </p>
                 
           
           
+            </div>
+            <div id="left" class="maindiv">
+            </div>
+            <div id="middle" class="maindiv">
+            </div>
+            <div id="right" class="maindiv">
             </div>
         </core-scroll-header-panel>
 </body>

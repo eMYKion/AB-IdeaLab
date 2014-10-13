@@ -13,6 +13,12 @@
     border: 1px solid #000000;
     margin:10px;
 }
+#signin{
+    padding:10px;
+    border:1px solid #000000;
+    float:left;
+}
+
 
  #mid-container div{
      background-color:#CCCCCC;

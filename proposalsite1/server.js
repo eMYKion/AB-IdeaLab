@@ -1,13 +1,11 @@
-var fs = require('fs');
+usn = document.getElementById("username").input;
+psw = document.getElementById("password").input;
+signindoc = document.getElementById("signin");
 
-str=prompt("Type in your message:");
-str=str.toString();
-/*
-fs.writeFile("example_log.txt", str, function(err) {
-    if(err) {
-        console.log(err);
-    } else {
-        console.log("The file was saved!");
+function logincheck(){
+    if(true/*(usn=="I")&&(psw=="A")*/){
+        
+        signindoc.innerHTML="<a href=\"http:www.youtube.com\">Welcome User</a>";
     }
-});
-*/
+}
+
