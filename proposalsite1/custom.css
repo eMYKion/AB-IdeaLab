@@ -1,26 +1,46 @@
 #body{
      background-color:#DDDDDD;
-     font-family:"Lucida Console";
+     font-family:"Trebuchet MS";
      
  }
 
 #top{
-    background-color:#CCCCCC;
+    background-color:#FFFFFF;
     float:left;
     
     
     width:1245px;
-    border: 1px solid #000000;
+    
     margin:10px;
 }
+#signin{
+    border: 1px solid #000000;
+    margin:10px;
+    float:left;
+}
+#signin h{
+    border:1px solid #0000FF;
+    margin:5px;
+    cursor: wait;
+}
+#signin h:active{
+    border:1px solid #FFFF00;
+    
+}
+
+#signin a{
+    text-decoration:none; 
+}
+
+
 
  #mid-container div{
-     background-color:#CCCCCC;
+     background-color:#FFFFFF;
  }
  .colheads {
      padding:5px;
      background-color:#0000FF;
-     border: 1px solid #FFFF00;
+     
      border-radius:5px;
      color:#FFFFFF;
  }
@@ -32,7 +52,7 @@
             
             
     width:200px;
-    border: 1px solid #000000;
+    
     margin:10px;
 }
 #left-column ul{
@@ -62,7 +82,7 @@
     
     
     width:800px;
-    border:1px solid #000000;
+    
     margin:10px;
 }
 #right-column{
@@ -71,7 +91,7 @@
     
     
     width:200px;
-    border:1px solid #000000;
+    
     margin:10px;
 }
 
@@ -85,12 +105,12 @@
 
 
 #bottom{
-    background-color:#CCCCCC;
+    background-color:#FFFFFF;
     float:left;
     
-    height:150px;
+    height:200px;
     width:1245px;
-    border: 1px solid #000000;
+    
     margin:10px;
 }
 #bottom div ul{
@@ -99,6 +119,6 @@
 #bottom div ul{
     list-style-type:none;
 }
-bottom div ul li a{
+#bottom div ul li a{
     text-decoration:none;
 }

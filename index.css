@@ -1,0 +1,27 @@
+body{
+    font-family:Arial;
+}
+#con p paper-button{
+    background: #9999ff;
+    color: #fff;
+}
+
+#con p paper-button:hover {
+    background: #000000;
+}
+
+#con p paper-button::shadow #ripple {
+    color: #00FF00;
+}
+core-toolbar{
+    color:#FFFF00;
+    background-color: #0000FF;
+}
+core-toolbar::shadow #ripple {
+    background-color: #FFFF00;
+}
+
+.maindiv{
+    float:left;
+    border:2px solid #9999ff;
+}
